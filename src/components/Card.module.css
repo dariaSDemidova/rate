@@ -2,13 +2,45 @@
     border: 1px solid white;
 }
 
-.title {
+.card:nth-child(1) .title {
     background-color: rgb(49, 171, 187);
+}
+
+.card:nth-child(1) .price {
+    background-color: rgb(83, 206, 222);
+}
+
+.card:nth-child(2) .title {
+    background-color: rgb(14, 133, 79);
+}
+
+.card:nth-child(2) .price {
+    background-color: rgb(77, 142, 95);
+}
+
+.card:nth-child(3) .title {
+    background-color: rgb(160, 48, 30);
+}
+
+.card:nth-child(3) .price {
+    background-color: rgb(207, 85, 69);
+}
+
+.card:nth-child(4) .title {
+    background-color: #000000;
+}
+
+.card:nth-child(4) .price {
+    background-color: rgb(121, 121, 121);
+}
+
+.title {
+    color: #FFFFFF;
 }
 
 .price {
     font-size: x-large;
-    background-color: rgb(83, 206, 222);
+    color: #FFFFFF;
 }
 
 .speed {
@@ -23,40 +55,3 @@
     border: 2px solid black;
     height: 150px;
 }
-
-
-/* blue theme */
-/* .title {
-    background-color: rgb(49, 171, 187);
-}
-
-.price {
-    background-color: rgb(83, 206, 222);
-} */
-
-/* green theme */
-/* .title {
-    background-color: rgb(14, 133, 79);
-}
-
-.price {
-    background-color: rgb(77, 142, 95);
-} */
-
-/* red theme */
-/* .title {
-    background-color: rgb(160, 48, 30);
-}
-
-.price {
-    background-color: rgb(207, 85, 69);
-} */
-
-/* black theme */
-/* .title {
-    background-color: rgb(2, 9, 6);
-}
-
-.price {
-    background-color: rgb(121, 121, 121);
-} */
